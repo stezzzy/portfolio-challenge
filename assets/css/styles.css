@@ -1,0 +1,17 @@
+:root {
+  --gray: #ececec;
+  --mint: #9fd3c7;
+  --blue: #385170;
+  --dark: #142d4c;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+.header,
+.navbox {
+  position: fixed;
+  background-color: var(--dark);
+}

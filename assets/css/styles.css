@@ -3,15 +3,82 @@
   --mint: #9fd3c7;
   --blue: #385170;
   --dark: #142d4c;
+  --white: #f2f2f2;
 }
 
 * {
   box-sizing: border-box;
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
-.header,
-.navbox {
+body,
+html {
+  height: 100%;
+}
+
+.navbar {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
   position: fixed;
   background-color: var(--dark);
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: var(--white);
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+  top: 25px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.navbar div {
+  float: left;
+  padding: 6px;
+  margin-top: 10px;
+  margin-left: 5px;
+  color: var(--white);
+  font-size: 58px;
+}
+
+.hero {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(19, 198, 248, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../images/heroimg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: -102px;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white);
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.hero-text h3 {
+  margin-top: 60px;
+  padding-top: 30px;
 }

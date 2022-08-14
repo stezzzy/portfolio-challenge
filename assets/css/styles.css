@@ -29,6 +29,7 @@ body {
   width: 100%;
   position: fixed;
   background-color: var(--dark);
+  /* border-bottom: 5px solid var(--white); */
 }
 
 .navbar a {
@@ -92,12 +93,15 @@ body {
 }
 
 #about {
-  font-size: 15px;
+  font-size: 20px;
   color: var(--dark);
   text-align: center;
   margin: 150px 400px 0px 400px;
   border: 15px inset var(--blue);
   background-color: var(--mint);
+}
+#about:hover {
+  border: 15px outset var(--blue);
 }
 
 #about:after {
@@ -108,5 +112,22 @@ body {
   height: 100px;
   float: left;
   margin: 0 0 0 0;
-  transform: translate(-200%, -200%);
+  transform: translate(-270%, -350%);
+}
+
+.profile {
+  display: block;
+  width: 150px;
+  height: 150px;
+  float: right;
+  border-radius: 100%;
+  transform: translate(-80%, -250%);
+  border: 5px solid var(--gray);
+}
+
+.profile:hover {
+  border: 9px double var(--mint);
+  width: 250px;
+  height: 250px;
+  transform: translate(-30%, -170%);
 }

@@ -20,12 +20,16 @@
           <a href="#contact">Contact Me</a>
         </div>
       </header>
-      <figure class="hero"></figure>
-      <div class="hero-text">
-        <h1>Nicholas Stevens</h1>
-        <h3>Full Stack Developer</h3>
-      </div>
 
+      <!-- Hero section -->
+      <figure class="hero">
+        <div class="hero-text">
+          <h1>Nicholas Stevens</h1>
+          <h3>Full Stack Developer</h3>
+        </div>
+      </figure>
+      <!-- Hero end -->
+      <!-- About Section -->
       <section id="about">
         <h3>About Me</h3>
         <p>
@@ -66,49 +70,61 @@
           alt="Profile Image"
         />
       </div>
+      <!-- About End -->
+      <!-- Start Portfolio -->
+      <section id="projects" class="portfolio-section">
+        <h1>My Projects</h1>
 
-      <div class="projhead"><h1>My Projects</h1></div>
-
-      <section id="projects">
-        <div class="mainproj">
-          <img id="seoimg" src="./assets/images/seo.jpg" alt="SEO Image" />
+        <div class="lead-container">
           <a
             href="https://stezzzy.github.io/Refactor-SEO/"
             target="_blank"
             rel="noopener noreferrer"
-            ><h2 id="seotxt">Horiseon SEO Website</h2></a
           >
+            <div id="leadProj">
+              <h2>Horiseon SEO Website</h2>
+            </div>
+          </a>
         </div>
-        <div class="smallprojs">
-          <figure>
-            <img id="small-1" src="./assets/images/heroimg.jpg" alt="Prework" />
-            <a
-              href="https://stezzzy.github.io/prework-study-guide/"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><h2 id="small-1-txt">Prework Study Guide</h2></a
-            >
-          </figure>
-          <figure>
-            <img id="small-2" src="./assets/images/eth.jpg" alt="Project 2" />
-            <a
-              href="https://github.com/stezzzy/eth-call"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><h2 id="small-2-txt">Ethereum Python</h2></a
-            >
-          </figure>
-          <figure>
-            <img id="small-3" src="./assets/images/fam.jpg" alt="Project 3" />
-            <a
-              href="https://www.amazon.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><h2 id="small-3-txt">Amazon</h2></a
-            >
-          </figure>
+
+        <!-- Row -->
+        <div class="flex-container">
+          <!-- Column -->
+          <a
+            href="https://stezzzy.github.io/prework-study-guide/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <!-- Card -->
+            <div id="projOne">
+              <h3>Prework Study Guide</h3>
+            </div>
+            <!-- End Card -->
+          </a>
+          <!-- End Column -->
+          <a
+            href="https://github.com/stezzzy/eth-call"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div id="projTwo">
+              <h3>Ethereum Python</h3>
+            </div>
+          </a>
+          <a
+            href="https://www.amazon.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div id="projThree">
+              <h3>Amazon</h3>
+            </div>
+          </a>
         </div>
+        <!-- End Row -->
       </section>
+      <!-- End portfolio -->
+      <hr />
 
       <footer>
         <h4 id="contact">Contact Me:</h4>

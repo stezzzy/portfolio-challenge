@@ -21,6 +21,7 @@ html {
 
 body {
   background-color: var(--dark);
+  /* width: 100%; */
 }
 
 .navbar {
@@ -106,7 +107,7 @@ body {
   font-size: 20px;
   color: var(--dark);
   text-align: center;
-  margin: 150px 400px 0px 400px;
+  margin: 150px 20vw 0px 20vw;
   border: 15px inset var(--blue);
   background-color: var(--mint);
 }
@@ -211,6 +212,7 @@ body {
   width: 450px;
   height: 590px;
   filter: blur(4px);
+  border-right: 5px solid var(--mint);
 }
 
 #small-1-txt {
@@ -261,6 +263,14 @@ body {
   width: 450px;
   height: 590px;
   filter: blur(4px);
+  border-left: 5px solid var(--mint);
+}
+
+#small-3:hover,
+#small-2:hover,
+#small-1:hover,
+#seoimg:hover {
+  filter: blur(0px);
 }
 
 #small-3-txt {
@@ -280,3 +290,30 @@ body {
 #small-3-txt:hover {
   font-size: 43px;
 }
+
+footer {
+  text-align: center;
+  color: var(--gray);
+}
+
+@media screen and (max-width: 1400px) {
+  #about {
+    margin: 150px 10vw 0px 10vw;
+  }
+
+  #about::after {
+    display: none;
+  }
+  .profile {
+    display: none;
+  }
+}
+/*
+@media screen and (min-width: 992px) {
+  body {
+    width: 33.3%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+} */

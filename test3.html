@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #images-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #large-img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        max-width: 80%;
+        min-width: 60%;
+        width: 70%;
+    }
+    #small-imgs {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        max-width: 25rem;
+        min-width: 18rem;
+        margin: 0px;
+        text-align: center;
+    }
+  </style>
+  <body>
+    <div id="images-container"">
+      <div id="large-img"><div width="100%">
+        <a href="bing.com"><img src="./assets/images/seodone.png" alt="" /></a>
+      </div>
+    </div>
+      <div id="small-imgs">
+        <div width="33%">
+          <a href="https://google.com"
+            ><img src="./assets/images/glassesdone.jpg" alt="glasses image"
+          /></a>
+        </div>
+        <div width="33%">
+          <a href="https://amazon.com"
+            ><img src="./assets/images/ethdone.png" alt="eth image"
+          /></a>
+        </div>
+        <div width="33%">
+          <a href="https://yahoo.com"
+            ><img src="./assets/images/famdone.png" alt="family image"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

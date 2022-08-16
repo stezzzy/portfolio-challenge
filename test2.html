@@ -1,0 +1,90 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 25rem;
+        min-width: 18rem;
+        margin: 10px;
+        text-align: center;
+      }
+
+      #imgOne {
+        background-image: url("./assets/images/heroimg.jpg");
+        background-size: contain;
+        min-height: 250px;
+        max-height: 250px;
+        min-width: 250px;
+        max-width: 300px;
+      }
+      #imgTwo {
+        background-image: url("./assets/images/eth.jpg");
+        background-size: contain;
+        min-height: 250px;
+        max-height: 250px;
+        min-width: 250px;
+        max-width: 300px;
+      }
+      #imgThree {
+        background-image: url("./assets/images/fam.jpg");
+        background-size: contain;
+        min-height: 250px;
+        max-height: 250px;
+        min-width: 250px;
+        max-width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <a
+          class="sideLink"
+          href="https://stezzzy.github.io/prework-study-guide/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><div id="imgOne">
+            <h1>hello box1</h1>
+          </div></a
+        >
+      </div>
+      <div class="box">
+        <img
+          src="https://images.pexels.com/photos/36753/flower-purple-lical-blosso.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        />
+        <h1>box2</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+          molestias hic velit, ipsum facere nemo minus distinctio est quidem
+          neque.
+        </p>
+      </div>
+      <div class="box">
+        <img
+          src="https://images.pexels.com/photos/36753/flower-purple-lical-blosso.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        />
+        <h1>box3</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+          molestias hic velit, ipsum facere nemo minus distinctio est quidem
+          neque.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
